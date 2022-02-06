@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = subl -n -w  >/dev/null 2>&1
+  editor = code --wait
 
 [alias]
   co = checkout
@@ -50,11 +50,4 @@
 [pull]
   rebase = false
 [user]
-	email = fernandabussular@gmail.com
-	name = Fernanda de Jesus
-[credential "https://github.com"]
-	helper = 
-	helper = !/usr/bin/gh auth git-credential
-[credential "https://gist.github.com"]
-	helper = 
-	helper = !/usr/bin/gh auth git-credential
+	name = Fernanda

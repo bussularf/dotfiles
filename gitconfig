@@ -50,4 +50,11 @@
 [pull]
   rebase = false
 [user]
-	name = Fernanda
+	email = fernandabussular@gmail.com
+	name = Fernanda de Jesus
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
